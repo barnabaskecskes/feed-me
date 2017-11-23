@@ -1,7 +1,14 @@
 {
-    "require": {
-        "cakephp/utility": "3.3.12",
-        "jakeasmith/http_build_url": "^1.0",
-        "nesbot/carbon": "^1.22"
-    }
+	"name": "barnabaskecskes/feed-me",
+  	"description": "Feed Me fork",
+    	"require": {
+		"craftcms/cms": "^3.0.0-beta.20",
+        	"cakephp/utility": "3.3.12",
+        	"jakeasmith/http_build_url": "^1.0",
+        	"nesbot/carbon": "^1.22"
+    	},
+	"extra": {
+	    	"handle": "feed-me",
+	    	"name": "Feed Me"
+	}
 }
